@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aahna-ashina/ubi-interface/issues"
   },
-  "homepage": "https://github.com/aahna-ashina/ubi-interface#readme"
+  "homepage": "https://github.com/aahna-ashina/ubi-interface#readme",
+  "dependencies": {
+    "trumpet": "^1.7.2"
+  }
 }

@@ -1,22 +1,19 @@
 {
   "name": "ubi-interface",
-  "version": "1.0.0",
+  "version": "0.5.0",
   "description": "UI for interacting with the Proof of Humanity smart contract.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aahna-ashina/ubi-interface.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aahna-ashina/ubi-interface/issues"
-  },
-  "homepage": "https://github.com/aahna-ashina/ubi-interface#readme",
   "dependencies": {
-    "trumpet": "^1.7.2"
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.0.0"
   }
 }

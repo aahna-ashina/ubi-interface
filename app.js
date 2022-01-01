@@ -1,1 +1,0 @@
-const trumpet = require('trumpet')
